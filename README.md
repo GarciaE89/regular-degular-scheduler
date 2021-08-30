@@ -23,6 +23,6 @@ THEN the saved events persist
 this weeks challenge focuses on using third party api's, in this case moment. Using javascript, schedule block divs where created dynamically, and place in columns / rows. 
 We stored the value of the text area and saved it in local storge to get when the page is refreshed. I has some issues with the styling and have been working to correct those.
 
-[Deployed-Scheduler] ()
+[Deployed-Scheduler] (https://garciae89.github.io/regular-degular-scheduler/)
 
 ![Scheduler] (<img width="1080" alt="work scheduler" src="https://user-images.githubusercontent.com/74579301/131368770-1232ad40-8e00-479c-ad05-eb7a4ad61c5e.png">)
