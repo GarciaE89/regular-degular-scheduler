@@ -5,7 +5,7 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
-##Acceptance Criteria 
+## Acceptance Criteria 
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -25,4 +25,4 @@ We stored the value of the text area and saved it in local storge to get when th
 
 [Deployed-Scheduler] ()
 
-![Scheduler] (work-scheduler.png)
+![Scheduler] (https://github.com/GarciaE89/regular-degular-scheduler/blob/main/work%20scheduler.png)
