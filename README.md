@@ -25,4 +25,4 @@ We stored the value of the text area and saved it in local storge to get when th
 
 [Deployed-Scheduler] ()
 
-![Scheduler] (./assets/image/work-scheduler)
+![Scheduler] (./assets/images/work-scheduler)
