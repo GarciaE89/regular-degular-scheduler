@@ -20,23 +20,26 @@ var addTimeBlocks = function(hour){
     var textColumnEl = document.createElement("div");
     textColumnEl.className = "col-sm-8 p-0";
     var textArea = document.createElement("textarea");
-    textArea.className = "description";
+    textArea.className = "description form-control";
     textArea.textContent = localStorage.getItem(hour);
     if(hour < currentTime.hour()) {
-        textColumnEl.classList.add("past")
+        textColumnEl.classList.add("past");
+        textArea.classList.add("past");
     }
     else if (hour > currentTime.hour()){
-        textColumnEl.classList.add("future")
+        textColumnEl.classList.add("future");
+        textArea.classList.add("future");
     }
     else {
         textColumnEl.classList.add("present");
+        textArea.classList.add("present");
     }
     textColumnEl.append(textArea);
     
     var saveColumnEl = document.createElement("div");
-    saveColumnEl.className = "col-sm-2 p-0";
+    saveColumnEl.className = "col-sm-2 p-0 saveBtn";
     var saveBtn = document.createElement("button");
-    saveBtn.className = "saveBtn";
+    // saveBtn.className = "saveBtn";
     var saveIconEl = document.createElement("i");
     saveIconEl.className = "far fa-save";
     saveBtn.append(saveIconEl);
